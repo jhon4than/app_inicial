@@ -1,0 +1,114 @@
+/* Mines.css */
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente */
+  border-radius: 20px;
+}
+
+.logo {
+  width: 100px; /* Ajuste conforme necessário */
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.mines-logo {
+  width: 200px; /* Ajuste conforme necessário */
+  height: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.info-container {
+  margin-bottom: 20px;
+}
+
+.text-box {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #000;
+  margin: 10px 0;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
+
+.card {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #0043e4;
+  color: white;
+}
+
+.circle, .star {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hack-button {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+.hack-button:disabled {
+  background-color: rgb(25, 155, 16);
+}
+
+.loading {
+  color: #fff;
+}
+
+.web-view {
+  width: 100%;
+  height: 700px; /* Ajuste a altura conforme necessário */
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.loading-text {
+  /* Estilos para o texto de carregamento, por exemplo: */
+  font-weight: bold;
+  color: #fff;
+}
+
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 100%;
+  }
+}

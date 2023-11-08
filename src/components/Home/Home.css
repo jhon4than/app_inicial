@@ -1,0 +1,67 @@
+/* Home.css */
+.background {
+  flex: 1;
+  background-size: cover;
+}
+
+.scrollContainer {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.centerImage {
+  width: 280px;
+  height: 280px;
+  margin-top: 40px;
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); */
+}
+
+.textContainer {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 15px;
+  padding: 15px;
+  margin-top: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.welcomeText {
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.descriptionText {
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  margin-bottom: 20px;
+  border: 2px solid gold;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.videoPrompt {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: black;
+  text-align: center;
+}
+
+.video {
+  width: 380px;
+  height: 600px;
+  margin: 10px 0 80px;
+  border-radius: 15px;
+  border: 2px solid gold;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
